@@ -1,0 +1,138 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.column {width:750px}
+.logo {
+  width: 260px;
+}
+.headermenu {
+  display: none;
+}
+.mainmenu #nav li a {
+  font-size: 14px;
+  padding: 15px 10px 9px;
+}
+.mainmenu #nav li ul li a {
+  font-size: 12px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.mainmenu #nav li ul{width:180px;}
+.left_slider {
+  margin-right: 15px;
+  width: 490px;
+}
+.right_video {
+width: 245px;
+}
+.single_video_right {
+  padding: 5px 3px 1px 10px;
+}
+.single_video_right img {
+
+  margin-right: 10px;
+  width: 58px;
+}
+.single_video_right h3 {
+ font-size: 10px;
+  font-weight: bold;
+  line-height: 16px
+}
+.middle_content {
+  margin-right: 15px;
+  width: 145px;
+}
+.left_content {
+  margin-right: 15px;
+  width: 330px;
+}
+.latest_from_category {
+  width: 340px;
+}
+.single_cate_post {
+  width: 103px;
+}
+.right_sidebar {
+  width: 245px;
+}
+.single_tech-category {
+  width: 160px;
+}
+.footermenu li a {
+  padding: 0 5px;
+}
+div.mobile_menu_area{display:none;}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.column{width:300px}
+ul#nav {display:none}
+div.mobile_menu_area {display: block; padding: 10px 25px;}
+ul#mobile_menu {}
+ul#mobile_menu li{border-bottom:1px solid #222;padding:5px 0}
+ul#mobile_menu li a{color:#999}
+ul#mobile_menu li a:hover{color:#fff}
+ul#mobile_menu li ul{margin-left:20px}
+ul#mobile_menu li ul li {}
+ul#mobile_menu li ul li:first-child {border-top:3px solid #CF0000;margin-top:10px}
+ul#mobile_menu li ul li:last-child {border-bottom:0px solid #000}
+ul#mobile_menu li ul li a{}
+ul#mobile_menu li ul li a:hover{}
+.logo, .headermenu, .left_slider, .right_video, .left_content, .middle_content, .right_sidebar {width:301px}
+.logo {float: none; text-align: center;}
+.headermenu {margin-bottom: 20px; margin-top: 20px; text-align: center;width:}
+.headermenu ul li {display: inline; float: none;}
+.headermenu ul li a {display: inline-block;padding:0px 5px;}
+.header_right {width: 270px;}
+.left_slider, .left_content, .middle_content, .right_sidebar {margin-right: 0;}
+.latest_from_category {width: 310px;}
+.single_cate_post {width: 320px;}
+.gallery_content img {width:90px;}
+.newsletter_sidebar input[type="text"], .newsletter_sidebar input[type="email"] {width: 370px;}
+.single_tech-category {
+  width: 300px;
+}
+.right_sidebar {width:287px}
+.column {
+  padding: 10px;
+}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.column{width:450px}
+ul#nav {display:none}
+div.mobile_menu_area {display: block; padding: 10px 25px;}
+ul#mobile_menu {}
+ul#mobile_menu li{border-bottom:1px solid #222;padding:5px 0}
+ul#mobile_menu li a{color:#999}
+ul#mobile_menu li a:hover{color:#fff}
+ul#mobile_menu li ul{margin-left:20px}
+ul#mobile_menu li ul li {}
+ul#mobile_menu li ul li:first-child {border-top:3px solid #CF0000;margin-top:10px}
+ul#mobile_menu li ul li:last-child {border-bottom:0px solid #000}
+ul#mobile_menu li ul li a{}
+ul#mobile_menu li ul li a:hover{}
+.logo, .headermenu, .left_slider, .right_video, .left_content, .middle_content, .right_sidebar {width:450px}
+.logo {float: none; text-align: center;}
+.headermenu {margin-bottom: 20px; margin-top: 20px; text-align: center;width:}
+.headermenu ul li {display: inline; float: none;}
+.headermenu ul li a {display: inline-block;padding:0 4px;}
+.header_right {width:345px;}
+.left_slider, .left_content, .middle_content, .right_sidebar {margin-right: 0;}
+.latest_from_category {width: 460px;}
+.single_cate_post {width: 143px;}
+.gallery_content img {width: 140px;}
+.newsletter_sidebar input[type="text"], .newsletter_sidebar input[type="email"] {width: 370px;}
+.single_tech-category {
+  width: 220px;
+}
+.right_sidebar {width:428px}
+}
+
